@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /study
+
+logging:
+  file: E://Test/logs/spring-boot-study-pro-warn.log
+  level:  # logging.level.包名=级别
+    org:
+      springframework:
+        web: warn

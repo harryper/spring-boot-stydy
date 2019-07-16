@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /study #根路径
+
+# 日志
+logging:
+  file: E://Test/logs/spring-boot-study-dev-debug.log
+  level:  # logging.level.包名=级别
+    org:
+      springframework:
+        web: debug
+
